@@ -1,0 +1,17 @@
+# n = int(input())
+# arr = input()
+# print(arr)
+# new = arr.split()
+# print(new)
+# set = set(new)
+# print(set)
+# list = list(set)
+# list.sort()
+# print("Runner-up is:", list[-2])
+
+
+N = int(input())
+list = list(set(map(int, input().strip().split(" "))))
+list.sort(reverse=True)
+print(list)
+print(list[1])
