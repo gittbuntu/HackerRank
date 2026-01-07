@@ -58,12 +58,13 @@ Validate pos Decreasing Quantity
     ],
     'assets': {
         'point_of_sale._assets_pos': [
+            "bi_pos_manager_validation/static/src/js/set.js",
             'bi_pos_manager_validation/static/src/css/custom.css',
             "bi_pos_manager_validation/static/src/js/models.js",
             "bi_pos_manager_validation/static/src/js/HeaderButton.js",
             # "bi_pos_manager_validation/static/src/js/validationTesting.js",
-            # "bi_pos_manager_validation/static/src/js/ProductScreen.js",
-            "bi_pos_manager_validation/static/src/js/test.js",
+             "bi_pos_manager_validation/static/src/js/ProductScreen.js",
+            #"bi_pos_manager_validation/static/src/js/test.js",
             "bi_pos_manager_validation/static/src/js/TicketScreen.js",
         ],
     },

@@ -1,0 +1,9 @@
+<templates>
+    <t t-name="mail.SuggestedRecipients" t-inherit="mail.SuggestedRecipients" t-inherit-mode="extension">
+        <xpath expr="//div" position="inside">
+            <span class="alert">you are sending an email to this persion</span>
+        </xpath>
+
+    </t>
+
+</templates>
